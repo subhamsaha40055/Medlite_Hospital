@@ -1,0 +1,106 @@
+/* Add to your style3.css or inside <style> tag */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f2f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #434242;
+    margin-bottom: 20px;
+  }
+ 
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 5px;
+  }
+  
+  select,
+  input[type="date"],
+  input[type="time"] {
+    padding: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+  
+  select:focus,
+  input:focus {
+    border-color: #4caf50;
+    outline: none;
+  }
+  
+  button[type="submit"] {
+    padding: 12px;
+    background: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button[type="submit"]:hover {
+    background: #45a049;
+  }
+  .home-button{
+    padding: 12px;
+    background: #104bab;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 8px;
+  }
+  .home-button:hover{
+    background: #0e3b8c;
+  } 
+  .logo{
+    
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    margin-bottom: 0.3rem;
+  }
+  .logo img{
+    width: 100%;
+    max-width: 400px;
+    mix-blend-mode: multiply;
+    left: 150px;
+  }
+  @media screen and (max-width: 600px) {
+    .container {
+      margin: 20px;
+      padding: 20px;
+    }
+  
+    h2 {
+      font-size: 24px;
+    }
+  }
+  
